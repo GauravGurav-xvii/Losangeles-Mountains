@@ -1,0 +1,263 @@
+body{
+    background: url('images/CT_SkillTest_v3-1.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.main-content{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+ /* top layer */
+#mountain-top{
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+
+.top-logo{
+    position: absolute;
+    top: 10px;
+    left: 20%;
+    max-width: 5%;
+}
+
+.top-heading{
+   position: absolute;
+   top: 4%;
+   left: 27%;
+   width: 40%;
+   height: auto;
+   max-width: 50%;
+   filter: brightness(100%);
+   filter: contrast(100%);
+   filter: opacity(1);
+}
+
+.logohr1{
+    position: sticky;
+    margin-top: 5px;
+    margin-left: 240px;
+    border-radius: 100%;
+    border-color: black;
+    max-width: 7%;
+    height: auto;
+}
+
+.logohr2{
+    margin-top: 5px;
+    max-width: 10%;
+    height: auto;
+}
+
+.logohr3{
+    margin-top: 5px;
+    margin-left: 300px;
+    text-decoration: underline;
+    max-width: 30%;
+    height: auto;
+}
+
+.logovr{
+    position: absolute;
+    top: 30px;
+    right: 10%;
+    max-width: 10%;
+}
+
+/* middle-layer */
+#mountain-mid{
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    margin-top: 20px;
+    margin-bottom: 150px;
+}
+
+.point-one{
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    max-width: 10%;
+}
+
+.point-head{
+    position: absolute;
+    top: 32.5%;
+    left: 29%;
+    max-width: 5%;
+}
+
+.para1{
+    position: absolute;
+    top: 35%;
+    left: 25%;
+    float: left;
+    margin-right: 150px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: small;
+}
+
+.bottom-phase-img{
+    position: absolute;
+    top: 56.5%;
+    left: 0%;
+    max-width: 100%;
+    padding-left: 13px;
+    padding-right: 13px;
+    opacity: 0.7;
+}
+
+.gallary-img1{
+    position: absolute;
+    top: 57%;
+    left: 20%;
+    width: 15%;
+}
+
+.gallary-img2{
+    position:absolute;
+    top: 57%;
+    left: 35.5%;
+    width: 15%;
+}
+
+.gallary-img3{
+    position: absolute;
+    top: 57%;
+    left: 51%;
+    width: 15%;
+}
+
+.gallary-img4{
+    position: absolute;
+    top: 57%;
+    left: 66.5%;
+    width: 15%;
+}
+
+.point-two{
+    position: absolute;
+    top: 64%;
+    left: 25%;
+    max-width: 10%;
+}
+
+.point-head2{
+    position: absolute;
+    top: 66%;
+    left: 33.8%;
+    max-width: 7%;
+}
+
+.para2{
+    position: absolute;
+    top: 65%;
+    left: 42%;
+    float: left;
+    margin-right: 80px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: small;
+}
+
+/* bottom-layer */
+.top-line{
+    width: 100%;
+}
+
+#mount1-bkg{
+    position: absolute;
+    bottom: 100%;
+    left: 10%;
+    height: 34px;
+    width: 10%; 
+}
+
+#mount1{
+    position: absolute;
+    bottom: 90%;
+    left: 10%;
+    width: 120px;
+    filter: brightness(100%);
+}
+
+#mount2{
+    position: absolute;
+    bottom: 90%;
+    left: 22%;
+    width: 130px;
+    filter: brightness(100%);
+}
+
+.mountain-bottom{
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+
+.backimg1{
+    position: absolute;
+    bottom: 63%;
+    left: 17%;
+    opacity: 0.5;
+    width: 20%;
+}
+
+.bg-details1{
+    position: absolute;
+    bottom: 65%;
+    left: 19%;
+    width: 15%;
+}
+
+.bg-img-logo{
+    display: flex;
+    position: absolute;
+    bottom: 82%;
+    left: 20%;
+    max-width: 10%;
+    height: auto;
+}
+
+/* footer */
+.footer-img{
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    z-index: 1;
+}
+
+.footer-logo{
+    position: absolute;
+    bottom: 0.4%;
+    left: 20%;
+    opacity: 0.4;
+    max-width: 3%;
+    height: auto;
+}
+
+.footer-head{
+    position: absolute;
+    bottom: 0.4%;
+    left: 24%;
+    max-width: 10%;
+    height: auto;
+}
+
+.footer-details{
+    position: absolute;
+    bottom: 1%;
+    right: 20%;
+    max-width: 20%;
+    height: auto;
+}
+
+
+

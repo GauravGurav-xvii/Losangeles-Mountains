@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link files -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Skill Test</title>
+    <!-- js files -->
+    <script src="js/index.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+<main id="main">
+    <div class="container-fluid">
+        <div class="row .main-content">
+            <div class="col-lg-12 col-md-12 col-sm-12"> 
+                <!-- Top layer  -->
+                <div class="top-layer" onclick="show()">
+                    <img src="images/CT_SkillTest_v3-44.jpeg" alt="mountain-top" id="mountain-top">
+                    <img src="images/CT_SkillTest_v3-5.png" alt="top-logo" class="top-logo">
+                    <img src="images/CT_SkillTest_v3-50.png" alt="sidehr" class="logovr">
+                    <img src="images/CT_SkillTest_v3-46.png" alt="top-heading" class="top-heading">
+                    <img src="images/CT_SkillTest_v3-5.png" alt="logohr1" class="logohr1">
+                    <img src="images/CT_SkillTest_v3-4.png" alt="logohr2" class="logohr2">
+                    <u><img src="images/CT_SkillTest_v3-41.png" alt="logohr3" class="logohr3"></u>
+                </div>
+                <!-- Middle layer -->
+                <div class="middle-layer">
+                    <img src="images/CT_SkillTest_v3-35.jpeg" alt="mountain-mid" id="mountain-mid">
+                    <img src="images/CT_SkillTest_v3-38.png" alt="point-one" class="point-one">
+                    <img src="images/CT_SkillTest_v3-37.png" alt="point-head" class="point-head">
+                    <p class="para1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus dolor tempora quam vitae, earum ex quaerat dolores veritatis laboriosam, ut ipsam necessitatibus libero ipsum doloremque excepturi rem porro quos facilis.</p>
+                    <img src="images/CT_SkillTest_v3-22.png" alt="" class="bottom-phase-img">
+                    <img src="images/CT_SkillTest_v3-27.jpeg" alt="gallary-img1" class="gallary-img1">
+                    <img src="images/CT_SkillTest_v3-25.jpeg" alt="gallary-img2" class="gallary-img2">
+                    <img src="images/CT_SkillTest_v3-31.jpeg" alt="gallary-img3" class="gallary-img3">
+                    <img src="images/CT_SkillTest_v3-29.jpeg" alt="gallary-img4" class="gallary-img4">
+                    <img src="images/CT_SkillTest_v3-21.png" alt="point-two" class="point-two">
+                    <img src="images/CT_SkillTest_v3-20.png" alt="point-head2" class="point-head2">
+                    <p class="para2">Cras scelerisque id quam sed dignissim Pellentesque urna nunc, gravida quis hendrerit it ac, tristique ut quam. Vivamus suscipit digissim tortor nec congue. </p>
+                </div>
+                <!-- bottom layer -->
+                <!-- <div class="bottom-layer ">
+                    <img src="images/CT_SkillTest_v3-15.jpeg" alt="top-line" class="top-line">
+                    <img src="images/CT_SkillTest_v3-16.jpeg" alt="mount1-bkg" class="mount1-bkg">
+                    <img src="images/CT_SkillTest_v3-18.png" alt="mount1" class="mount1">
+                    <img src="images/CT_SkillTest_v3-17.png" alt="mount2" class="mount2" id="chmount">
+                    <img src="images/CT_SkillTest_v3-11.jpeg" alt="mountain-bottom" id="mountain-bottom">
+                    <img src="images/CT_SkillTest_v3-8.jpeg" alt="back-img" class="backimg1">
+                    <img src="images/CT_SkillTest_v3-13.png" alt="back-img-details" class="bg-details1">
+                    <img src="images/CT_SkillTest_v3-10.png" alt="bg-img-logo" class="bg-img-logo">
+                </div> -->
+                
+                <div class="bottom-layer">
+                    <div id="demo" class="carousel slide" data-bs-ride="false">
+                        <img src="images/CT_SkillTest_v3-15.jpeg" alt="top-line" class="top-line">
+                        <!-- Left and right controls/icons -->
+                        <img src="images/CT_SkillTest_v3-16.jpeg" alt="mount1-bkg" id="mount1-bkg" class="carousel-control-prev" data-bs-target="#demo" data-bs-slide="prev">
+                        <img src="images/CT_SkillTest_v3-18.png" alt="mount1" role="button" id="mount1" class="carousel-control-prev mount1" data-bs-target="#demo" data-bs-slide="prev">
+                        <img src="images/CT_SkillTest_v3-17.png" alt="mount2" role="button" id="mount2" class="carousel-control-next mount2" data-bs-target="#demo" data-bs-slide="next">               
+                        <!-- The slideshow/carousel -->
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="images/CT_SkillTest_v3-11.jpeg" alt="mountain-bottom" class="mountain-bottom d-block w-100">
+                                <img src="images/CT_SkillTest_v3-8.jpeg" alt="back-img" class="backimg1">
+                                <img src="images/CT_SkillTest_v3-13.png" alt="back-img-details" class="bg-details1">
+                                <img src="images/CT_SkillTest_v3-10.png" alt="bg-img-logo" class="bg-img-logo">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/CT_SkillTest_v3-7.jpeg" alt="mountain-bottom" class="mountain-bottom d-block w-100">
+                                <img src="images/CT_SkillTest_v3-8.jpeg" alt="back-img" class="backimg1">
+                                <img src="images/CT_SkillTest_v3-9.png" alt="back-img-details" class="bg-details1">
+                                <img src="images/CT_SkillTest_v3-10.png" alt="bg-img-logo" class="bg-img-logo">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Footer elements -->
+                <footer>
+                    <img src="images/CT_SkillTest_v3-2.jpeg" alt="footer-img" class="footer-img">
+                    <img src="images/CT_SkillTest_v3-51.png" alt="footer-logo" class="footer-logo">
+                    <img src="images/CT_SkillTest_v3-4.png" alt="footer-head" class="footer-head">
+                    <img src="images/CT_SkillTest_v3-3.png" alt="footer-details" class="footer-details">
+                </footer>
+            </div>
+        </div>
+    </div>    
+</main>
+</body>
+</html>
